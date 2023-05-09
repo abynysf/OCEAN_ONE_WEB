@@ -1,0 +1,188 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 70rem;
+  background-image: url("./assets/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.navigation {
+  margin-top: 1.4375rem;
+  padding: 1.625rem;
+  background-color: white;
+  border-radius: 1.625rem;
+  margin-bottom: 10.125rem;
+}
+
+.container .row h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #433b3b;
+  line-height: 7.35rem;
+}
+
+header span {
+  color: #06bee1;
+}
+
+#start {
+  color: white;
+}
+
+header button {
+  font-size: 1.25rem;
+  color: #433b3b;
+  font-weight: bold;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #f78d78;
+  margin-top: 3rem;
+}
+
+.section-2 {
+  background-color: #d1fffc;
+  text-align: center;
+}
+
+.section-2 h2 {
+  color: #03256c;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 8.75rem;
+}
+
+.section-2 h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.section-2 p {
+  text-align: left;
+  height: 50%;
+}
+
+.section-2 .col-lg-4 {
+  padding: 0 3.75rem;
+  margin-bottom: 15%;
+}
+
+.section-2 button {
+  font-size: 1.25rem;
+  color: #433b3b;
+  font-weight: bold;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #f78d78;
+}
+
+.section-3 {
+  background-color: #1768ac;
+  padding-bottom: 100px;
+}
+
+.section-3 h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 5.625rem 0 7.5rem 0;
+}
+
+#f78d78 {
+  color: #f78d78;
+}
+
+#d1feff {
+  color: #d1feff;
+}
+
+.section-3 .col-lg-4 {
+  text-align: center;
+  padding: 0 5rem;
+}
+
+.section-3 h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.section-3 p {
+  color: white;
+}
+
+.section-3 .project {
+  margin: 0 0 5.625rem 0;
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.section-4 {
+  margin-top: 460px;
+}
+
+.text-box {
+  padding: 1.625rem;
+  border-radius: 0.625rem;
+  background-color: #03256c;
+}
+
+.section-5 {
+  padding-bottom: 50px;
+}
+
+.section-5 h2 {
+  color: #06bee1;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 5.625rem 0 7.5rem 0;
+}
+
+.section-5 input,
+.section-5 textarea {
+  color: #433b3b;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 15px;
+  padding: 1em;
+  list-style: none;
+}
+
+footer ul li a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #433b3b;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.section-5 button {
+  font-size: 1.25rem;
+  color: #433b3b;
+  font-weight: bold;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+  background-color: #f78d78;
+}
+
+footer h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
