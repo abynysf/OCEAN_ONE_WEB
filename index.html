@@ -70,7 +70,7 @@
           </p>
         </div>
       </div>
-      <button>Take Actions</button>
+      <button onclick="takeAction()">Take Actions</button>
     </header>
     <section class="section-2">
       <h2>OFFSET YOUR PLASTIC FOOTPRINT</h2>
@@ -227,12 +227,15 @@
                 <div class="form-group mt-4">
                   <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." style="height: 200px;"></textarea>
                 </div>
-                <button type="submit " class=" mt-4">Submit</button>
+                <button onclick="sendData()" type="button" class=" mt-4">Submit</button>
               </form>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <section>
+      <div id="hasil" class="container"></div>
     </section>
     <footer>
       <div class="container-fluid" style="background-color: #D9D9D9;">
@@ -250,5 +253,18 @@
         </div>
       </div>
     </footer>
+    
+    
+    <!-- script -->
+    <script>
+      function takeAction(){
+        alert('Welcone to Ocean One Landing Page, Thank You for your contribution to take part of this action!!');
+      }
+
+      function sendData(){
+        var hasil = document.getElementById("hasil")
+        hasil.innerHTML = "<h2>Thank you for your submission</h2><h3>Your name is " + document.getElementById('name').value + "</h3><h3>Your are submitting your data on " + document.getElementById('email').value + "</h3><h3>Your message is " + document.getElementById('message').value + "</h3>";
+      }
+    </script>
   </body>
 </html>
