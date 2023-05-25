@@ -207,8 +207,37 @@
             </div>
       </div>
     </section>
-    <section class="section-5">
+    <!-- Kalkulator sampah -->
+    <section class="sampah">
       <img src="./assets/Vector 2.svg" style="width: 100%">
+      <div class="container">
+        <div class="row">
+          <h2>KALKULATOR SAMPAH</h2><br>
+          <p>Berapa banyak sampah yang anda hasilkan?</p>
+        </div>
+        <div id="item-container">
+          <div class="item-input m-1">
+            <label>Botol Plastik: </label>
+            <input type="text" class="item-name" />
+          </div>
+          <div class="item-input m-1">
+            <label>Sedotan: </label>
+            <input type="text" class="item-name" />
+          </div>
+        </div>
+        <div class="btn">
+          <button onclick="addNewField()">Tambah Jenis Sampah</button>
+          <button onclick="calculateTotal()">Dapatkan Total</button>
+        </div>
+        <div id="total-container">
+          <label>Total Keseluruhan: </label>
+          <span id="total">0</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section class="section-5">
       <div class="container">
         <h2 class="text-center">GET IN <span style="color: #2541B2;">TOUCH</span> </h2>
         <div class="row mt-5" >
@@ -237,6 +266,8 @@
     <section>
       <div id="hasil" class="container"></div>
     </section>
+
+    <!-- Footer -->
     <footer>
       <div class="container-fluid" style="background-color: #D9D9D9;">
         <div class="row align-items-center">
@@ -256,7 +287,7 @@
     
     
     <!-- script -->
-    <script>
+    <script src="./script.js">
       function takeAction(){
         alert('Welcone to Ocean One Landing Page, Thank You for your contribution to take part of this action!!');
       }
